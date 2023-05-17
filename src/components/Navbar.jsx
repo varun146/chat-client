@@ -42,9 +42,8 @@ function Navbar() {
     <NavContainer>
       <Link to="/">
         <NavLogo>
-          <NavImage src="/talking.png" alt="brand=logo" />
-          <NavBrand>Chatty</NavBrand>
-          {show && onlineUsers && <NavCount> 上線人數：{onlineUsers.length || 0}</NavCount>}
+          <NavImage src="/raven.png" alt="brand=logo" />
+          <NavBrand>Raven</NavBrand>
         </NavLogo>
       </Link>
       {user ? (
